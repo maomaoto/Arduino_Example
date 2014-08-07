@@ -1,7 +1,8 @@
 /*
   Fade (from http://arduino.cc/en/Tutorial/Fade )
   
-  
+  L293D on Motodurino does not have the fade effect
+  Because L293D only has digital state
 */
 
 int enAPin = 5; // enA for L293D
